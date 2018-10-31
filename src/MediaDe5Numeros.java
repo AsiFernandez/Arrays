@@ -23,6 +23,13 @@ public class MediaDe5Numeros {
         media = media /5;
         
         System.out.println("La media de los datos introducidos es de " + media);
+        System.out.println("Las notas por encima de la media son: ");
+        for(int i= 0; i <datos.length; i++) {
+        	if(datos[i]> media) {
+        		
+        		System.out.print(datos[i] + ", ");
+        	}
+        }
 	
 	}
 
